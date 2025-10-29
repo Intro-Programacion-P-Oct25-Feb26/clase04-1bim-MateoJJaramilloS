@@ -18,16 +18,18 @@ public class Ejemplo05 {
         String apellidoEstudiante = "Elizalde Solano";
         int nacimiento = 1983;
         
-        /*System.out.println(nombreEstudiante+"\n"+apellidoEstudiante+ "\n"+ 
+        System.out.println(nombreEstudiante+"\n"+apellidoEstudiante+ "\n"+ 
                 nacimiento);
         
         System.out.println(nombreEstudiante+"\n\n"+apellidoEstudiante+ "\n\n"+ 
                 nacimiento);
         
         System.out.println(nombreEstudiante+"\n"+"\n"+apellidoEstudiante+ "\n"+
-                "\n"+ nacimiento); */
-        System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
-        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);
+                "\n"+ nacimiento); 
+                        
+        //System.out.println(nombreEstudiante+"\t"+apellidoEstudiante); 
+                
+        //System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);
         //t es el espacio tab o 4 espacios y n es el espacio sobrantes
     }
 }
