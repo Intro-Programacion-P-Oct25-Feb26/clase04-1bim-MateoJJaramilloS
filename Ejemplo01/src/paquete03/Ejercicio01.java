@@ -10,6 +10,6 @@ package paquete03;
  */
 public class Ejercicio01{
     public static void main(String[] args) {
-        System.out.println("Mensaje demo");
+        System.out.println("Mateo Jaramillo creación de nueva clase y paquete");
     }
 }
