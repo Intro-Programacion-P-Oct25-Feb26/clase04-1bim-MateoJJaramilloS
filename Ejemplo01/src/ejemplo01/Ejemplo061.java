@@ -15,19 +15,14 @@ public class Ejemplo061 {
         // Uso de printf
         // f: formato
 
-        //String nombreEstudiante = "René Rolando";
-        //String apellidoEstudiante = "Elizalde Solano";
-        //int nacimiento = 1983;
-        // System.out.println(nombreEstudiante+" "+apellidoEstudiante+ " "+ 
-        // nacimiento);
-        // En printf; 
+
         // usamos %s para reemplazar las cadenas, enteros, decimales
         // usamos %d para reemplazar los valores enteros
         // usamos %f para reemplazar los valore decimales
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento);
         String nombre = "Mateo";
-        String apellido = "Jaramllo";
+        String apellido = "Jaramillo";
         int edad = 17;
         String direccion = "Daniel Alvarez";
         String universidad = "UTPL";
@@ -35,7 +30,7 @@ public class Ejemplo061 {
         String asignatura = "Introduccion a la programación";
         String paralelo = "A";
 
-        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nDirección:\n\n\t&s\nUniversidad:%s\nCiclo:%s\nAsignatura:%s\nParelo:\n\t%s\n",nombre, apellido,edad,direccion,universidad,ciclo,asignatura,paralelo);
+        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad:\n\t%s\nDirección:\n\t%s\nUniversidad:\n\t%s\nCiclo:\n\t%s\nAsignatura:\n\t%s\nParelo:\n\t%s\n",nombre, apellido,edad,direccion,universidad,ciclo,asignatura,paralelo);
 
     }
 }
